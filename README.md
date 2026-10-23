@@ -1,16 +1,52 @@
-# React + Vite
+# CampusEats
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CampusEats is a React-based food pre-ordering application for IIUM students. Students can browse cafeteria vendors, view menus, add items to their cart, manage quantities, checkout, and save favourite items.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Fetch vendor data from a JSON mock API.
+- Display loading and error states with a retry option.
+- Browse different cafeteria vendors and their menus.
+- Add items to the cart, update quantities, and remove items.
+- Calculate cart totals and submit an order.
+- Add and remove favourite items.
+- Filter the menu to show favourite items only.
 
-## React Compiler
+## Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript
+- JSON Mock API
+- CSS
 
-## Expanding the ESLint configuration
+## Running the Project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+2. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+3. Open the local URL shown in the terminal.
+
+## Vendor Data Credits
+
+- **Faizul Cafe**: 2418793
+- **Faruq Cafe**: 2416723
+- **Kafe Mahallah Uthman**: 2411391
+- Vendors 2-3 from 2416723 and 2411391.
+
+The vendor data for Faruq Cafe and Kafe Mahallah Uthman was provided by classmates and is used for this lab exercise.
+
+## Course
+
+BICS 3301 - Cross-Platform Software Development
+
+Week 3 Lab: Mock API, cart and checkout, and favourite items.
