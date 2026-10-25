@@ -1,11 +1,41 @@
 [
     {
         "id": "2418793-Faizul-Cafe",
-        "name": "Faizul Cafe",
+        "name": "ZUL.CO Signature",
         "location": "Mahallah Siddiq, Block A",
         "openHours": "8:00 am - 11:00 pm",
         "isOpen": true,
         "menu": [
+            {
+                "id": "2418793-m7",
+                "name": "Nasi Dagang",
+                "image": "/images/nasidagang.jpeg",
+                "price": 6.0,
+                "category": "Meals",
+                "popular": true,
+                "description": "Rice served with rich fish curry.",
+                "available": true
+            },
+            {
+                "id": "2418793-s3",
+                "name": "Dubai Chewy Cookies",
+                "image": "/images/dcc.jpeg",
+                "price": 15.0,
+                "category": "Snacks",
+                "popular": true,
+                "description": "Rich chocolate cookies, chewy centre.",
+                "available": true
+            },
+            {
+                "id": "2418793-d5",
+                "name": "Matcha Strawberry",
+                "image": "/images/matchastrawberry.jpeg",
+                "price": 7.0,
+                "category": "Drinks",
+                "popular": true,
+                "description": "Matcha blended with sweet strawberry.",
+                "available": false
+            },
             {
                 "id": "2418793-m1",
                 "name": "Nasi Goreng Kampung",
@@ -61,15 +91,6 @@
                 "available": true
             },
             {
-                "id": "2418793-m7",
-                "name": "Nasi Dagang",
-                "price": 6.0,
-                "category": "Meals",
-                "popular": true,
-                "description": "Rice served with rich fish curry.",
-                "available": true
-            },
-            {
                 "id": "2418793-m8",
                 "name": "Nasi Goreng Chicken Chop",
                 "price": 10.67,
@@ -94,15 +115,6 @@
                 "category": "Snacks",
                 "popular": true,
                 "description": "Crispy fried bananas topped with cheese.",
-                "available": true
-            },
-            {
-                "id": "2418793-s3",
-                "name": "Dubai Chewy Cookies",
-                "price": 15.0,
-                "category": "Snacks",
-                "popular": true,
-                "description": "Rich chocolate cookies with a chewy centre.",
                 "available": true
             },
             {
@@ -187,15 +199,6 @@
                 "available": true
             },
             {
-                "id": "2418793-d5",
-                "name": "Matcha Strawberry",
-                "price": 7.0,
-                "category": "Drinks",
-                "popular": true,
-                "description": "Matcha blended with sweet strawberry.",
-                "available": true
-            },
-            {
                 "id": "2418793-d6",
                 "name": "Keladi Latte",
                 "price": 6.5,
@@ -230,7 +233,7 @@
         "name": "Faruq Cafe",
         "location": "Mahallah Faruq, IIUM Gombak",
         "openHours": "7:00 am - 11:00 pm",
-        "isOpen": true,
+        "isOpen": false,
         "menu": [
             {
                 "id": "2416723-1",

@@ -6,12 +6,20 @@
    You do not need to write CSS in this course; focus on React.
    ===================================================================== */
 
+/* Colour Palette Reference */
 :root {
   --green: #00685e;
   --green-light: #e6f2f0;
   --text: #1f2933;
   --muted: #616e7c;
-  --bg: #f7f8fa;
+  --bg: #FAF6EF;;
+
+  --cream: #F5E6CA;
+  --white: #FFFDF7;
+  --beige: #DCC7AA;
+  --coffee: #6F4E37;
+  --espresso: #4B3832;
+
   --radius: 12px;
   font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   color: var(--text);
@@ -21,21 +29,24 @@
 * { box-sizing: border-box; }
 body { margin: 0; }
 
+/* Header */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
-  background: var(--green);
-  color: #fff;
+  background: var(--espresso);
+  color: var(--white);
 }
+
 .logo { margin: 0; font-size: 1.4rem; }
 .nav { display: flex; gap: 1.25rem; }
 .nav a { color: #fff; text-decoration: none; }
 .badge {
   background: #fff;
-  color: var(--green);
+  color: var(--coffee);
   border-radius: 999px;
+  margin-left: 6px;
   padding: 0 0.5rem;
   font-weight: 700;
   font-size: 0.85rem;
@@ -45,29 +56,60 @@ body { margin: 0; }
 .section-title { font-size: 1.2rem; margin: 1.5rem 0 0.75rem; }
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; }
 
+/* Vendor Card */
 .card {
-  background: #fff;
+  background: var(--white);
   border-radius: var(--radius);
   padding: 1rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 3px rgba(75, 56, 50, 0.12);
 }
+
 .card h2, .card h3 { margin: 0 0 0.25rem; }
 .vendor-card { display: flex; gap: 1rem; align-items: center; }
+
+/* Thumbnail for vendor card, or for menu item if no image is available */
 .thumb {
-  width: 64px; height: 64px; flex-shrink: 0;
-  display: grid; place-items: center;
-  background: var(--green-light); color: var(--green);
-  border-radius: var(--radius); font-size: 1.6rem; font-weight: 700;
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  background: var(--beige);
+  color: var(--espresso);
+  border-radius: var(--radius);
+  font-size: 1.6rem;
+  font-weight: 700;
   margin-bottom: 0.5rem;
 }
+/* Thumbnail Image */
+.thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+  display: block;
+}
+
 .muted { color: var(--muted); margin: 0.2rem 0; font-size: 0.9rem; }
 .price { font-weight: 700; margin: 0.5rem 0; }
 .status { display: inline-block; margin-top: 0.4rem; padding: 0.1rem 0.6rem; border-radius: 999px; font-size: 0.8rem; font-weight: 600; }
-.status.open { background: #e3f7e8; color: #1b7a3a; }
-.status.closed { background: #fdecea; color: #b3261e; }
+.status.open {
+  background: #e3f7e8;
+  color: #1b7a3a;
+}
+.status.closed {
+  background: #fdecea;
+  color: #b3261e;
+}
 .btn {
-  width: 100%; padding: 0.55rem; border: 0; border-radius: 8px;
-  background: var(--green); color: #fff; font-weight: 600; cursor: pointer;
+  width: 100%;
+  padding: 0.55rem;
+  border: 0;
+  border-radius: 8px;
+  background: var(--coffee);
+  color: var(--white);
+  font-weight: 600;
+  cursor: pointer;
 }
 .btn:disabled { background: #c5cbd3; cursor: not-allowed; }
 
@@ -76,10 +118,35 @@ body { margin: 0; }
 /* Week 2 additions */
 .vendor-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
 button.card { font: inherit; color: inherit; text-align: left; border: 2px solid transparent; cursor: pointer; width: 100%; }
-button.card:hover { border-color: var(--green-light); }
-.vendor-card.selected { border-color: var(--green); }
+button.card:hover {
+  border-color: var(--beige);
+}
+.vendor-card.selected {
+  border-color: var(--coffee);
+}
 .card h3 { font-size: 1.05rem; }
-.tag { display: inline-block; margin: 0 0 0.3rem; padding: 0.05rem 0.5rem; border-radius: 999px; background: var(--green-light); color: var(--green); font-size: 0.75rem; font-weight: 600; }
+.tag {
+  display: inline-block;
+  margin: 0 0 0.3rem;
+  padding: 0.05rem 0.5rem;
+  border-radius: 999px;
+  background: var(--green-light);
+  color: var(--green);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.tag.meals {
+  background: #F3D4A0;
+  color: #79512E;
+}
+.tag.drinks {
+  background: #C8E0D5;
+  color: #35695A;
+}
+.tag.snacks {
+  background: #E9D4E5;
+  color: #79536F;
+}
 
 /* Week 3 additions */
 .link { background: none; border: 0; padding: 0; font: inherit; color: #fff; cursor: pointer; }
