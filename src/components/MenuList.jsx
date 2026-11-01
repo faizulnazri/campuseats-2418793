@@ -1,12 +1,10 @@
 
 import MenuItemCard from './MenuItemCard.jsx'
+import { useCart } from '../hooks/useCart.js'
 
-function MenuList({
-    items,
-    onAdd,
-    favourites,
-    onToggleFavourite,
-}) {
+function MenuList({ items }) {
+    const { addToCart, favourites, toggleFavourite } = useCart()
+
     if (items.length === 0) {
         return <p className="muted">No items on this menu yet.</p>
     }
@@ -17,9 +15,9 @@ function MenuList({
                 <MenuItemCard
                     key={item.id}
                     item={item}
-                    onAdd={onAdd}
+                    onAdd={addToCart}
                     isFavourite={favourites.includes(item.id)}
-                    onToggleFavourite={onToggleFavourite}
+                    onToggleFavourite={toggleFavourite}
                 />
             ))}
         </div>
