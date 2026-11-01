@@ -23,3 +23,10 @@ Add a new section every week, before you tag. Did not use AI? Write "None" under
 - What I asked for: Help with implementing and debugging the mock API, cart functionality, checkout form, and favourite items. I also asked for explanations of React code, help fixing errors, and guidance on updating the README.
 - What I kept, changed or rejected, and why: I used ChatGPT to understand the lab tasks and troubleshoot problems. I tested the features in the browser and kept the changes that worked correctly. I followed the lecturer's lab sheet and made sure I understood the code before using it.
 - One thing the AI got wrong and how I fixed it: ChatGPT initially gave guidance that did not fully match my project setup. I checked my actual files and browser behaviour, then adjusted the code to match my project structure and tested the changes again.
+
+## Week 4
+
+- Tool(s): ChatGPT
+- What I asked for: Help with implementing and debugging custom hooks, Cart Context, React Router, and the Favourites page. I also asked for explanations of React code, help fixing errors, and guidance on testing the application and using Git commands.
+- What I kept, changed or rejected, and why: I used ChatGPT to understand the lab tasks and implement the required features. I followed the lecturer's lab sheet, checked the suggested code against my project, and tested the features in the browser. I kept the changes that worked correctly and matched the lab requirements.
+- One thing the AI got wrong and how I fixed it: ChatGPT initially provided some guidance that did not fully match the lab instructions and my project setup. I checked the lecturer's slides and my actual project files, then adjusted the implementation and tested it again to make sure everything worked correctly.

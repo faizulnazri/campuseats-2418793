@@ -1,4 +1,3 @@
-
 function MenuItemCard({ item, onAdd, isFavourite, onToggleFavourite }) {
     return (
         <article className="card menu-card">
