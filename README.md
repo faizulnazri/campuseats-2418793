@@ -50,3 +50,5 @@ The vendor data for Faruq Cafe and Kafe Mahallah Uthman was provided by classmat
 BICS 3301 - Cross-Platform Software Development
 
 Week 3 Lab: Mock API, cart and checkout, and favourite items.
+
+Firebase project ID: campuseats-2418793
