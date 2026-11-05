@@ -7,7 +7,7 @@
         "isOpen": true,
         "menu": [
             {
-                "id": "2418793-m7",
+                "id": "2418793-m1",
                 "name": "Nasi Dagang",
                 "image": "/images/nasidagang.jpeg",
                 "price": 6.0,
@@ -17,17 +17,53 @@
                 "available": true
             },
             {
-                "id": "2418793-s3",
+                "id": "2418793-m2",
+                "name": "Nasi Kerabu",
+                "price": 6.0,
+                "category": "Meals",
+                "popular": true,
+                "description": "Blue rice served with herbs and sides.",
+                "available": false
+            },
+            {
+                "id": "2418793-m3",
+                "name": "Nasi Goreng Chicken Chop",
+                "price": 10.50,
+                "category": "Meals",
+                "popular": true,
+                "description": "Fried rice with crispy chicken chop.",
+                "available": true
+            },
+            {
+                "id": "2418793-s1",
                 "name": "Dubai Chewy Cookies",
                 "image": "/images/dcc.jpeg",
-                "price": 15.0,
+                "price": 7.0,
                 "category": "Snacks",
                 "popular": true,
                 "description": "Rich chocolate cookies, chewy centre.",
                 "available": true
             },
             {
-                "id": "2418793-d5",
+                "id": "2418793-s2",
+                "name": "Keropok Lekor",
+                "price": 3.0,
+                "category": "Snacks",
+                "popular": true,
+                "description": "Traditional fried fish crackers. (2 pcs)",
+                "available": true
+            },
+            {
+                "id": "2418793-s3",
+                "name": "Vietnamese Spring Roll",
+                "price": 15.0,
+                "category": "Snacks",
+                "popular": true,
+                "description": "Spring rolls, fresh vegetables. (3 pcs)",
+                "available": false
+            },
+            {
+                "id": "2418793-d1",
                 "name": "Matcha Strawberry",
                 "image": "/images/matchastrawberry.jpeg",
                 "price": 7.0,
@@ -37,209 +73,30 @@
                 "available": false
             },
             {
-                "id": "2418793-m1",
-                "name": "Nasi Goreng Kampung",
-                "price": 5.0,
-                "category": "Meals",
-                "popular": true,
-                "description": "Fried rice with anchovies and vegetables.",
-                "available": true
-            },
-            {
-                "id": "2418793-m2",
-                "name": "Nasi Goreng Cina",
-                "price": 4.5,
-                "category": "Meals",
-                "popular": true,
-                "description": "Chinese-style fried rice with egg.",
-                "available": true
-            },
-            {
-                "id": "2418793-m3",
-                "name": "Nasi Goreng Pattaya",
-                "price": 6.5,
-                "category": "Meals",
-                "popular": true,
-                "description": "Fried rice wrapped in an egg omelette.",
-                "available": true
-            },
-            {
-                "id": "2418793-m4",
-                "name": "Nasi Goreng USA",
-                "price": 8.0,
-                "category": "Meals",
-                "popular": true,
-                "description": "Fried rice served with meat and egg.",
-                "available": true
-            },
-            {
-                "id": "2418793-m5",
-                "name": "Nasi Goreng Kerabu",
-                "price": 6.0,
-                "category": "Meals",
-                "popular": true,
-                "description": "Aromatic fried rice with fresh herbs.",
-                "available": true
-            },
-            {
-                "id": "2418793-m6",
-                "name": "Nasi Kerabu",
-                "price": 6.0,
-                "category": "Meals",
-                "popular": true,
-                "description": "Blue rice served with herbs and sides.",
-                "available": true
-            },
-            {
-                "id": "2418793-m8",
-                "name": "Nasi Goreng Chicken Chop",
-                "price": 10.67,
-                "category": "Meals",
-                "popular": true,
-                "description": "Fried rice with crispy chicken chop.",
-                "available": true
-            },
-            {
-                "id": "2418793-s1",
-                "name": "Keropok Lekor",
-                "price": 0.5,
-                "category": "Snacks",
-                "popular": true,
-                "description": "Traditional fried fish crackers.",
-                "available": true
-            },
-            {
-                "id": "2418793-s2",
-                "name": "Pisang Goreng Cheese",
-                "price": 5.0,
-                "category": "Snacks",
-                "popular": true,
-                "description": "Crispy fried bananas topped with cheese.",
-                "available": true
-            },
-            {
-                "id": "2418793-s4",
-                "name": "Vietnamese Spring Roll",
-                "price": 15.0,
-                "category": "Snacks",
-                "popular": true,
-                "description": "Spring rolls filled with fresh vegetables.",
-                "available": true
-            },
-            {
-                "id": "2418793-s5",
-                "name": "Aiskrim Malaysia",
-                "price": 0.2,
-                "category": "Snacks",
-                "popular": true,
-                "description": "Traditional frozen flavoured ice pops.",
-                "available": true
-            },
-            {
-                "id": "2418793-s6",
-                "name": "Aiskrim Goreng",
-                "price": 1.0,
-                "category": "Snacks",
-                "popular": true,
-                "description": "Crispy fried ice cream dessert.",
-                "available": true
-            },
-            {
-                "id": "2418793-s7",
-                "name": "Shawarma",
-                "price": 7.0,
-                "category": "Snacks",
-                "popular": true,
-                "description": "Wrap filled with meat and vegetables.",
-                "available": true
-                },
-                {
-                "id": "2418793-s8",
-                "name": "Waffle",
-                "price": 5.0,
-                "category": "Snacks",
-                "popular": true,
-                "description": "Golden waffle with a soft centre.",
-                "available": true
-            },
-            {
-                "id": "2418793-d1",
-                "name": "Teh Hijau",
-                "price": 3.0,
-                "category": "Drinks",
-                "popular": true,
-                "description": "Refreshing green tea.",
-                "available": true
-            },
-            {
                 "id": "2418793-d2",
-                "name": "Teh Bunga",
-                "price": 2.5,
-                "category": "Drinks",
-                "popular": true,
-                "description": "Light and fragrant floral tea.",
-                "available": true
-            },
-            {
-                "id": "2418793-d3",
-                "name": "Teh Tarik",
-                "price": 2.5,
-                "category": "Drinks",
-                "popular": true,
-                "description": "Classic Malaysian pulled milk tea.",
-                "available": true
-            },
-            {
-                "id": "2418793-d4",
-                "name": "Teh O Ais",
-                "price": 1.8,
-                "category": "Drinks",
-                "popular": true,
-                "description": "Chilled black tea with ice.",
-                "available": true
-            },
-            {
-                "id": "2418793-d6",
-                "name": "Keladi Latte",
-                "price": 6.5,
-                "category": "Drinks",
-                "popular": true,
-                "description": "Creamy latte with taro flavour.",
-                "available": true
-            },
-            {
-                "id": "2418793-d7",
                 "name": "Spanish Latte",
                 "price": 7.0,
                 "category": "Drinks",
                 "popular": true,
                 "description": "Rich espresso with creamy milk.",
                 "available": true
-            },
-            {
-                "id": "2418793-d8",
-                "name": "Americano",
-                "price": 5.0,
-                "category": "Drinks",
-                "popular": true,
-                "description": "Bold espresso with hot water.",
-                "available": true
-            }            
+            }  
         ]
     },
 
     {
         "id": "2416723-Cafe",
-        "name": "Faruq Cafe",
+        "name": "Fateh Cafe",
         "location": "Mahallah Faruq, IIUM Gombak",
         "openHours": "7:00 am - 11:00 pm",
-        "isOpen": false,
+        "isOpen": true,
         "menu": [
             {
                 "id": "2416723-1",
                 "name": "Teh Tarik",
                 "price": 2.5,
                 "category": "Drinks",
+                "popular": true,
                 "description": "Traditional Malaysian tea",
                 "available": true
             },
@@ -248,6 +105,7 @@
                 "name": "Nasi Lemak",
                 "price": 5.0,
                 "category": "Main Dishes",
+                "popular": true,
                 "description": "Traditional Malaysian rice dish",
                 "available": true
             },
@@ -256,6 +114,7 @@
                 "name": "Roti Canai",
                 "price": 1.2,
                 "category": "Main Dishes",
+                "popular": true,
                 "description": "Traditional Malaysian flatbread",
                 "available": true
             },
@@ -264,6 +123,7 @@
                 "name": "Shawarma",
                 "price": 7.5,
                 "category": "Main Dishes",
+                "popular": true,
                 "description": "Arabic wrap with meat and vegetables",
                 "available": true
             },
@@ -272,6 +132,7 @@
                 "name": "Nasi Ayam Gepuk",
                 "price": 8.0,
                 "category": "Main Dishes",
+                "popular": true,
                 "description": "Traditional Indonesian rice dish",
                 "available": true
             },
@@ -280,6 +141,7 @@
                 "name": "Nasi Kandar",
                 "price": 6.5,
                 "category": "Main Dishes",
+                "popular": false,
                 "description": "Top tasty Malaysian rice dish",
                 "available": true
             },
@@ -288,6 +150,7 @@
                 "name": "Mee Tarik",
                 "price": 7.0,
                 "category": "Main Dishes",
+                "popular": true,
                 "description": "Famous Chinese noodle dish",
                 "available": true
             },
@@ -296,6 +159,7 @@
                 "name": "Jus Mangga",
                 "price": 4.0,
                 "category": "Drinks",
+                "popular": true,
                 "description": "Fresh mango juice",
                 "available": true
             }
@@ -307,7 +171,7 @@
         "name": "Kafe Mahallah Uthman",
         "location": "Mahallah Uthman, IIUM",
         "openHours": "7:00 am - 10:00 pm",
-        "isOpen": true,
+        "isOpen": false,
         "menu": [
             {
                 "id": "2411391-uthman-1",
