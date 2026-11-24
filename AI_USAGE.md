@@ -30,3 +30,10 @@ Add a new section every week, before you tag. Did not use AI? Write "None" under
 - What I asked for: Help with implementing and debugging custom hooks, Cart Context, React Router, and the Favourites page. I also asked for explanations of React code, help fixing errors, and guidance on testing the application and using Git commands.
 - What I kept, changed or rejected, and why: I used ChatGPT to understand the lab tasks and implement the required features. I followed the lecturer's lab sheet, checked the suggested code against my project, and tested the features in the browser. I kept the changes that worked correctly and matched the lab requirements.
 - One thing the AI got wrong and how I fixed it: ChatGPT initially provided some guidance that did not fully match the lab instructions and my project setup. I checked the lecturer's slides and my actual project files, then adjusted the implementation and tested it again to make sure everything worked correctly.
+
+## Week 5
+
+- Tool(s): ChatGPT
+- What I asked for: Help with reviewing and cleaning up the code related to Firebase Authentication and the personal feature (Favourite Items). I also asked for explanations of React code, help checking the implementation against the lab requirements, and guidance on testing the application and using Git commands.
+- What I kept, changed or rejected, and why: I used ChatGPT to review my existing code and improve its readability. I checked the suggestions against the lecturer's lab sheet and my project files, then tested the application to make sure the features still worked correctly.
+- One thing the AI got wrong and how I fixed it: ChatGPT initially misunderstood my project setup and thought I was using a separate Week 5 starter project. However, I was continuing from my existing CampusEats M1 React project. I clarified this and provided the correct project folder so that the guidance could match my actual project structure.
