@@ -4,7 +4,7 @@ import { useAuth } from '../hooks/useAuth.js'
 import { authErrorMessage } from '../authErrors.js'
 
 function LoginPage() {
-    const { login, loginWithGoogle } = useAuth()
+    const { login, loginWithGoogle, resetPassword } = useAuth()
     const navigate = useNavigate()
     const location = useLocation()
     const goTo = location.state?.from ?? '/'
@@ -13,6 +13,7 @@ function LoginPage() {
     const [password, setPassword] = useState('')
     const [error, setError] = useState('')
     const [busy, setBusy] = useState(false)
+    const [message, setMessage] = useState('')
 
     // Handle email and password login.
     async function handleSubmit(event) {
@@ -45,6 +46,28 @@ function LoginPage() {
         }
     }
 
+    // Send a password reset email.
+    async function handleResetPassword() {
+        setError('')
+        setMessage('')
+
+        if (!email.trim()) {
+            setError('Please enter your email address first.')
+            return
+        }
+
+        setBusy(true)
+
+        try {
+            await resetPassword(email.trim())
+            setMessage('Password reset email sent. Please check your inbox.')
+        } catch (err) {
+            setError(authErrorMessage(err))
+        } finally {
+            setBusy(false)
+        }
+    }
+
     return (
         <section className="auth-page">
             <form className="card form" onSubmit={handleSubmit}>
@@ -68,9 +91,26 @@ function LoginPage() {
                     required
                 />
 
+                <div className="forgot-password">
+                    <button
+                        type="button"
+                        className="link"
+                        onClick={handleResetPassword}
+                        disabled={busy}
+                    >
+                        Forgot password?
+                    </button>
+                </div>
+
                 {error && (
                     <p className="field-error" role="alert">
                         {error}
+                    </p>
+                )}
+
+                {message && (
+                    <p className="success-message" role="status">
+                        {message}
                     </p>
                 )}
 

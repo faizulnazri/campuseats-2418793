@@ -212,6 +212,17 @@ a.card:hover { border-color: var(--green-light); }
   text-align: center;
 }
 
+.forgot-password {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 12px;
+}
+
+.success-message {
+    color: #15803d;
+    font-size: 0.9rem;
+}
+
 /* Week 6 additions */
 .status-steps { display: flex; gap: 0.4rem; list-style: none; padding: 0; margin: 0.5rem 0 0; flex-wrap: wrap; }
 .status-steps li { padding: 0.15rem 0.6rem; border-radius: 999px; background: #eef0f3; color: var(--muted); font-size: 0.8rem; font-weight: 600; }
@@ -272,4 +283,15 @@ background: #fff; cursor: pointer; }
 
 .menu-card button + button {
   margin-top: 8px;
+}
+
+.forgot-password .link {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.forgot-password .link:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
 }

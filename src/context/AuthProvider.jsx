@@ -7,6 +7,7 @@ import {
     signOut,
     onAuthStateChanged,
     updateProfile,
+    sendPasswordResetEmail,
 } from 'firebase/auth'
 import { auth } from '../firebase.js'
 import { AuthContext } from './auth-context.js'
@@ -49,8 +50,21 @@ export function AuthProvider({ children }) {
         return signOut(auth)
     }
 
+    // Send a password reset email to the user.
+    function resetPassword(email) {
+        return sendPasswordResetEmail(auth, email)
+    }
+
     // Share authentication data and functions with the application.
-    const value = { user, loading, register, login, loginWithGoogle, logout }
+    const value = {
+        user,
+        loading,
+        register,
+        login,
+        loginWithGoogle,
+        logout,
+        resetPassword,
+    }
 
     return (
         <AuthContext.Provider value={value}>
